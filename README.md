@@ -5,7 +5,7 @@ A program for unsupervised deep learning of contigs features. The result of Deep
 
 Deep_binning is writen in Python and respective TensorFlow should be installed
 
-Python encoder.py -i inputfile -n num_hidden -e iteration_number -l learning rate
+Python encoder.py -i inputfile -n num_hidden -e iteration_number -l learning_rate
 
 # Parameters recomendation
 
