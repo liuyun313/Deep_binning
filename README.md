@@ -5,7 +5,11 @@ A program for unsupervised deep learning of contigs features. The result of Deep
 
 Deep_binning is writen in Python and respective TensorFlow should be installed
 
-Python encoder.py -i inputfile -n num_hidden -e iteration_number -l learning_rate
+Python Deep_binning.py -i inputfile -n num_hidden -e iteration_number -l learning_rate
+
+# Inputfile preparation 
+
+The inputfile could be the k-mer feature or coverage-feature written in .CSV format, in which each column represents a k-mer and each row is a contig. K-mer feature calculation could refer to kmer.py in this repository. Coverage feature could refer to CONCOCT packages 
 
 # Parameters recomendation
 
@@ -20,7 +24,7 @@ Python encoder.py -i inputfile -n num_hidden -e iteration_number -l learning_rat
 Different combinations of -n, -e and -l should to tried to train the Deep_binning. The standard of a well-trained model is simple, when the reconstruction error convergence is observed, the outputfile of Deep_binning is ready for use of subsequent binning process.
 
 # Output:
-inputfile_encoder.csv file with the representations of each contig.
+'inputfile'_encoder.csv file with the representations of each contig.
 
 # Support
 If you are having trouble running Deep_binning or interpretting any results, please don't hesitate to contact us: liuyun313@jlu.edu.cn.
