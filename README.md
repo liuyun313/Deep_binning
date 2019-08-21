@@ -1,6 +1,14 @@
 # Deep_binning
 A program for unsupervised deep learning of contigs features. The result of Deep_binning could be used for binning process for other binning tools.
 
+# Files description 
+
+Deep_binning.py is the Python script for feature learning.
+
+kmer.py is the Python script to count k-mer features for contigs in fasta format.
+
+*.CSV files are output files of Deep_binning of metagenomes used in our paper.
+
 # Basic usage
 
 Deep_binning is writen in Python and respective TensorFlow should be installed
