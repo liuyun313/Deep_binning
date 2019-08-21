@@ -15,7 +15,7 @@ The inputfile could be the k-mer feature or coverage-feature written in .CSV for
 
 -i: inputfile must be in csv file and the first column is the contigs namelist
 
--n: number of hidden layers, we recomend to set this value with about the half value of raw feature dimension. Take the 136 dimensional 4-mer frequency as an example, values between 40-70 are all ok for -n   
+-n: number of hidden layer's neurons, we recomend to set this value with about the half value of raw feature dimension. Take the 136 dimensional 4-mer frequency as an example, values between 40-70 are all ok for -n   
 
 -e: iteration number, 100 or 200
 
@@ -24,7 +24,7 @@ The inputfile could be the k-mer feature or coverage-feature written in .CSV for
 Different combinations of -n, -e and -l should to tried to train the Deep_binning. The standard of a well-trained model is simple, when the reconstruction error convergence is observed, the outputfile of Deep_binning is ready for use of subsequent binning process.
 
 # Output:
-'inputfile'_encoder.csv file with the representations of each contig.
+The output file is named 'inputfile'_encoder.csv file with the representations of each contig. This file has the same structure with the input file, but has less number of columns, which is equal to the number of hidden layer's neurons you have set.
 
 # Support
 If you are having trouble running Deep_binning or interpretting any results, please don't hesitate to contact us: liuyun313@jlu.edu.cn.
