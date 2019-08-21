@@ -9,7 +9,7 @@ Python Deep_binning.py -i inputfile -n num_hidden -e iteration_number -l learnin
 
 # Inputfile preparation 
 
-The inputfile could be the k-mer feature or coverage-feature written in .CSV format, in which each column represents a k-mer and each row is a contig. K-mer feature calculation could refer to kmer.py in this repository. Coverage feature could refer to CONCOCT packages 
+The inputfile could be the k-mer feature or coverage-feature written in .CSV format, in which each column represents a k-mer and each row is a contig. K-mer feature calculation could refer to kmer.py in this repository. Coverage feature could refer to CONCOCT packages in GitHub or you can contact us for help.
 
 # Parameters recomendation
 
